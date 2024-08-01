@@ -3,6 +3,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.util.Random;
 
+// class GamePanel extends JPanel =  Gamepanel สืบทอดต่อ GamePanel คือการนำ ทุุกๆสิ่งของ class Gamepanel เช่นตัวแปรต่างๆ ไปให้กับ Jpanel ทั้งหมด
 public class GamePanel extends JPanel implements ActionListener{
     static final int SCREEN_WIDTH = 1300;
     static final int SCREEN_HEIGHT = 750;
